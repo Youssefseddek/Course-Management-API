@@ -9,7 +9,6 @@ const baseUrl = '/api'
 app.use(express.json())
 app.use(`${baseUrl}/courses`, routes.courseRouter)
 
-// app.get('*', (req, res) => res.json({message:'404 Not Found Page'}))
 app.use((req, res, next) => {
     res.status(404).json({ message: '404 Not Found Page' });
 });

@@ -1,12 +1,6 @@
 import mongoose from "mongoose";
 
-// o title: String (required)
-// o description: String (required)
-// o image: String (can be base64 or image URL)
-// o startDate: Date (optional)
-// o endDate: Date (optional)
-// o price: Number (required)
-// o createdAt & updatedAt: Timestamps
+
 
 
 const courseSchema = new mongoose.Schema({
